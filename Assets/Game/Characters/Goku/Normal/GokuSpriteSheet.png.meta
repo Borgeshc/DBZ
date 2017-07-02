@@ -1,0 +1,6724 @@
+fileFormatVersion: 2
+guid: f4661df4b7731fe40ac76ad6519bfe11
+timeCreated: 1498948162
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: GokuSpriteSheet_0
+    21300002: GokuSpriteSheet_1
+    21300004: GokuSpriteSheet_2
+    21300006: GokuSpriteSheet_3
+    21300008: GokuSpriteSheet_4
+    21300010: GokuSpriteSheet_5
+    21300012: GokuSpriteSheet_6
+    21300014: GokuSpriteSheet_7
+    21300016: GokuSpriteSheet_8
+    21300018: GokuSpriteSheet_9
+    21300020: GokuSpriteSheet_10
+    21300022: GokuSpriteSheet_11
+    21300024: GokuSpriteSheet_12
+    21300026: GokuSpriteSheet_13
+    21300028: GokuSpriteSheet_14
+    21300030: GokuSpriteSheet_15
+    21300032: GokuSpriteSheet_16
+    21300034: GokuSpriteSheet_17
+    21300036: GokuSpriteSheet_18
+    21300038: GokuSpriteSheet_19
+    21300040: GokuSpriteSheet_20
+    21300042: GokuSpriteSheet_21
+    21300044: GokuSpriteSheet_22
+    21300046: GokuSpriteSheet_23
+    21300048: GokuSpriteSheet_24
+    21300050: GokuSpriteSheet_25
+    21300052: GokuSpriteSheet_26
+    21300054: GokuSpriteSheet_27
+    21300056: GokuSpriteSheet_28
+    21300058: GokuSpriteSheet_29
+    21300060: GokuSpriteSheet_30
+    21300062: GokuSpriteSheet_31
+    21300064: GokuSpriteSheet_32
+    21300066: GokuSpriteSheet_33
+    21300068: GokuSpriteSheet_34
+    21300070: GokuSpriteSheet_35
+    21300072: GokuSpriteSheet_36
+    21300074: GokuSpriteSheet_37
+    21300076: GokuSpriteSheet_38
+    21300078: GokuSpriteSheet_39
+    21300080: GokuSpriteSheet_40
+    21300082: GokuSpriteSheet_41
+    21300084: GokuSpriteSheet_42
+    21300086: GokuSpriteSheet_43
+    21300088: GokuSpriteSheet_44
+    21300090: GokuSpriteSheet_45
+    21300092: GokuSpriteSheet_46
+    21300094: GokuSpriteSheet_47
+    21300096: GokuSpriteSheet_48
+    21300098: GokuSpriteSheet_49
+    21300100: GokuSpriteSheet_50
+    21300102: GokuSpriteSheet_51
+    21300104: GokuSpriteSheet_52
+    21300106: GokuSpriteSheet_53
+    21300108: GokuSpriteSheet_54
+    21300110: GokuSpriteSheet_55
+    21300112: GokuSpriteSheet_56
+    21300114: GokuSpriteSheet_57
+    21300116: GokuSpriteSheet_58
+    21300118: GokuSpriteSheet_59
+    21300120: GokuSpriteSheet_60
+    21300122: GokuSpriteSheet_61
+    21300124: GokuSpriteSheet_62
+    21300126: GokuSpriteSheet_63
+    21300128: GokuSpriteSheet_64
+    21300130: GokuSpriteSheet_65
+    21300132: GokuSpriteSheet_66
+    21300134: GokuSpriteSheet_67
+    21300136: GokuSpriteSheet_68
+    21300138: GokuSpriteSheet_69
+    21300140: GokuSpriteSheet_70
+    21300142: GokuSpriteSheet_71
+    21300144: GokuSpriteSheet_72
+    21300146: GokuSpriteSheet_73
+    21300148: GokuSpriteSheet_74
+    21300150: GokuSpriteSheet_75
+    21300152: GokuSpriteSheet_76
+    21300154: GokuSpriteSheet_77
+    21300156: GokuSpriteSheet_78
+    21300158: GokuSpriteSheet_79
+    21300160: GokuSpriteSheet_80
+    21300162: GokuSpriteSheet_81
+    21300164: GokuSpriteSheet_82
+    21300166: GokuSpriteSheet_83
+    21300168: GokuSpriteSheet_84
+    21300170: GokuSpriteSheet_85
+    21300172: GokuSpriteSheet_86
+    21300174: GokuSpriteSheet_87
+    21300176: GokuSpriteSheet_88
+    21300178: GokuSpriteSheet_89
+    21300180: GokuSpriteSheet_90
+    21300182: GokuSpriteSheet_91
+    21300184: GokuSpriteSheet_92
+    21300186: GokuSpriteSheet_93
+    21300188: GokuSpriteSheet_94
+    21300190: GokuSpriteSheet_95
+    21300192: GokuSpriteSheet_96
+    21300194: GokuSpriteSheet_97
+    21300196: GokuSpriteSheet_98
+    21300198: GokuSpriteSheet_99
+    21300200: GokuSpriteSheet_100
+    21300202: GokuSpriteSheet_101
+    21300204: GokuSpriteSheet_102
+    21300206: GokuSpriteSheet_103
+    21300208: GokuSpriteSheet_104
+    21300210: GokuSpriteSheet_105
+    21300212: GokuSpriteSheet_106
+    21300214: GokuSpriteSheet_107
+    21300216: GokuSpriteSheet_108
+    21300218: GokuSpriteSheet_109
+    21300220: GokuSpriteSheet_110
+    21300222: GokuSpriteSheet_111
+    21300224: GokuSpriteSheet_112
+    21300226: GokuSpriteSheet_113
+    21300228: GokuSpriteSheet_114
+    21300230: GokuSpriteSheet_115
+    21300232: GokuSpriteSheet_116
+    21300234: GokuSpriteSheet_117
+    21300236: GokuSpriteSheet_118
+    21300238: GokuSpriteSheet_119
+    21300240: GokuSpriteSheet_120
+    21300242: GokuSpriteSheet_121
+    21300244: GokuSpriteSheet_122
+    21300246: GokuSpriteSheet_123
+    21300248: GokuSpriteSheet_124
+    21300250: GokuSpriteSheet_125
+    21300252: GokuSpriteSheet_126
+    21300254: GokuSpriteSheet_127
+    21300256: GokuSpriteSheet_128
+    21300258: GokuSpriteSheet_129
+    21300260: GokuSpriteSheet_130
+    21300262: GokuSpriteSheet_131
+    21300264: GokuSpriteSheet_132
+    21300266: GokuSpriteSheet_133
+    21300268: GokuSpriteSheet_134
+    21300270: GokuSpriteSheet_135
+    21300272: GokuSpriteSheet_136
+    21300274: GokuSpriteSheet_137
+    21300276: GokuSpriteSheet_138
+    21300278: GokuSpriteSheet_139
+    21300280: GokuSpriteSheet_140
+    21300282: GokuSpriteSheet_141
+    21300284: GokuSpriteSheet_142
+    21300286: GokuSpriteSheet_143
+    21300288: GokuSpriteSheet_144
+    21300290: GokuSpriteSheet_145
+    21300292: GokuSpriteSheet_146
+    21300294: GokuSpriteSheet_147
+    21300296: GokuSpriteSheet_148
+    21300298: GokuSpriteSheet_149
+    21300300: GokuSpriteSheet_150
+    21300302: GokuSpriteSheet_151
+    21300304: GokuSpriteSheet_152
+    21300306: GokuSpriteSheet_153
+    21300308: GokuSpriteSheet_154
+    21300310: GokuSpriteSheet_155
+    21300312: GokuSpriteSheet_156
+    21300314: GokuSpriteSheet_157
+    21300316: GokuSpriteSheet_158
+    21300318: GokuSpriteSheet_159
+    21300320: GokuSpriteSheet_160
+    21300322: GokuSpriteSheet_161
+    21300324: GokuSpriteSheet_162
+    21300326: GokuSpriteSheet_163
+    21300328: GokuSpriteSheet_164
+    21300330: GokuSpriteSheet_165
+    21300332: GokuSpriteSheet_166
+    21300334: GokuSpriteSheet_167
+    21300336: GokuSpriteSheet_168
+    21300338: GokuSpriteSheet_169
+    21300340: GokuSpriteSheet_170
+    21300342: GokuSpriteSheet_171
+    21300344: GokuSpriteSheet_172
+    21300346: GokuSpriteSheet_173
+    21300348: GokuSpriteSheet_174
+    21300350: GokuSpriteSheet_175
+    21300352: GokuSpriteSheet_176
+    21300354: GokuSpriteSheet_177
+    21300356: GokuSpriteSheet_178
+    21300358: GokuSpriteSheet_179
+    21300360: GokuSpriteSheet_180
+    21300362: GokuSpriteSheet_181
+    21300364: GokuSpriteSheet_182
+    21300366: GokuSpriteSheet_183
+    21300368: GokuSpriteSheet_184
+    21300370: GokuSpriteSheet_185
+    21300372: GokuSpriteSheet_186
+    21300374: GokuSpriteSheet_187
+    21300376: GokuSpriteSheet_188
+    21300378: GokuSpriteSheet_189
+    21300380: GokuSpriteSheet_190
+    21300382: GokuSpriteSheet_191
+    21300384: GokuSpriteSheet_192
+    21300386: GokuSpriteSheet_193
+    21300388: GokuSpriteSheet_194
+    21300390: GokuSpriteSheet_195
+    21300392: GokuSpriteSheet_196
+    21300394: GokuSpriteSheet_197
+    21300396: GokuSpriteSheet_198
+    21300398: GokuSpriteSheet_199
+    21300400: GokuSpriteSheet_200
+    21300402: GokuSpriteSheet_201
+    21300404: GokuSpriteSheet_202
+    21300406: GokuSpriteSheet_203
+    21300408: GokuSpriteSheet_204
+    21300410: GokuSpriteSheet_205
+    21300412: GokuSpriteSheet_206
+    21300414: GokuSpriteSheet_207
+    21300416: GokuSpriteSheet_208
+    21300418: GokuSpriteSheet_209
+    21300420: GokuSpriteSheet_210
+    21300422: GokuSpriteSheet_211
+    21300424: GokuSpriteSheet_212
+    21300426: GokuSpriteSheet_213
+    21300428: GokuSpriteSheet_214
+    21300430: GokuSpriteSheet_215
+    21300432: GokuSpriteSheet_216
+    21300434: GokuSpriteSheet_217
+    21300436: GokuSpriteSheet_218
+    21300438: GokuSpriteSheet_219
+    21300440: GokuSpriteSheet_220
+    21300442: GokuSpriteSheet_221
+    21300444: GokuSpriteSheet_222
+    21300446: GokuSpriteSheet_223
+    21300448: GokuSpriteSheet_224
+    21300450: GokuSpriteSheet_225
+    21300452: GokuSpriteSheet_226
+    21300454: GokuSpriteSheet_227
+    21300456: GokuSpriteSheet_228
+    21300458: GokuSpriteSheet_229
+    21300460: GokuSpriteSheet_230
+    21300462: GokuSpriteSheet_231
+    21300464: GokuSpriteSheet_232
+    21300466: GokuSpriteSheet_233
+    21300468: GokuSpriteSheet_234
+    21300470: GokuSpriteSheet_235
+    21300472: GokuSpriteSheet_236
+    21300474: GokuSpriteSheet_237
+    21300476: GokuSpriteSheet_238
+    21300478: GokuSpriteSheet_239
+    21300480: GokuSpriteSheet_240
+    21300482: GokuSpriteSheet_241
+    21300484: GokuSpriteSheet_242
+    21300486: GokuSpriteSheet_243
+    21300488: GokuSpriteSheet_244
+    21300490: GokuSpriteSheet_245
+    21300492: GokuSpriteSheet_246
+    21300494: GokuSpriteSheet_247
+    21300496: GokuSpriteSheet_248
+    21300498: GokuSpriteSheet_249
+    21300500: GokuSpriteSheet_250
+    21300502: GokuSpriteSheet_251
+    21300504: GokuSpriteSheet_252
+    21300506: GokuSpriteSheet_253
+    21300508: GokuSpriteSheet_254
+    21300510: GokuSpriteSheet_255
+    21300512: GokuSpriteSheet_256
+    21300514: GokuSpriteSheet_257
+    21300516: GokuSpriteSheet_258
+    21300518: GokuSpriteSheet_259
+    21300520: GokuSpriteSheet_260
+    21300522: GokuSpriteSheet_261
+    21300524: GokuSpriteSheet_262
+    21300526: GokuSpriteSheet_263
+    21300528: GokuSpriteSheet_264
+    21300530: GokuSpriteSheet_265
+    21300532: GokuSpriteSheet_266
+    21300534: GokuSpriteSheet_267
+    21300536: GokuSpriteSheet_268
+    21300538: GokuSpriteSheet_269
+    21300540: GokuSpriteSheet_270
+    21300542: GokuSpriteSheet_271
+    21300544: GokuSpriteSheet_272
+    21300546: GokuSpriteSheet_273
+    21300548: GokuSpriteSheet_274
+    21300550: GokuSpriteSheet_275
+    21300552: GokuSpriteSheet_276
+    21300554: GokuSpriteSheet_277
+    21300556: GokuSpriteSheet_278
+    21300558: GokuSpriteSheet_279
+    21300560: GokuSpriteSheet_280
+    21300562: GokuSpriteSheet_281
+    21300564: GokuSpriteSheet_282
+    21300566: GokuSpriteSheet_283
+    21300568: GokuSpriteSheet_284
+    21300570: GokuSpriteSheet_285
+    21300572: GokuSpriteSheet_286
+    21300574: GokuSpriteSheet_287
+    21300576: GokuSpriteSheet_288
+    21300578: GokuSpriteSheet_289
+    21300580: GokuSpriteSheet_290
+    21300582: GokuSpriteSheet_291
+    21300584: GokuSpriteSheet_292
+    21300586: GokuSpriteSheet_293
+    21300588: GokuSpriteSheet_294
+    21300590: GokuSpriteSheet_295
+    21300592: GokuSpriteSheet_296
+    21300594: GokuSpriteSheet_297
+    21300596: GokuSpriteSheet_298
+    21300598: GokuSpriteSheet_299
+    21300600: GokuSpriteSheet_300
+    21300602: GokuSpriteSheet_301
+    21300604: GokuSpriteSheet_302
+    21300606: GokuSpriteSheet_303
+    21300608: GokuSpriteSheet_304
+    21300610: GokuSpriteSheet_305
+    21300612: GokuSpriteSheet_306
+    21300614: GokuSpriteSheet_307
+    21300616: GokuSpriteSheet_308
+    21300618: GokuSpriteSheet_309
+    21300620: GokuSpriteSheet_310
+    21300622: GokuSpriteSheet_311
+    21300624: GokuSpriteSheet_312
+    21300626: GokuSpriteSheet_313
+    21300628: GokuSpriteSheet_314
+    21300630: GokuSpriteSheet_315
+    21300632: GokuSpriteSheet_316
+    21300634: GokuSpriteSheet_317
+    21300636: GokuSpriteSheet_318
+    21300638: GokuSpriteSheet_319
+    21300640: GokuSpriteSheet_320
+    21300642: GokuSpriteSheet_321
+    21300644: GokuSpriteSheet_322
+    21300646: GokuSpriteSheet_323
+    21300648: GokuSpriteSheet_324
+    21300650: GokuSpriteSheet_325
+    21300652: GokuSpriteSheet_326
+    21300654: GokuSpriteSheet_327
+    21300656: GokuSpriteSheet_328
+    21300658: GokuSpriteSheet_329
+    21300660: GokuSpriteSheet_330
+    21300662: GokuSpriteSheet_331
+    21300664: GokuSpriteSheet_332
+    21300666: GokuSpriteSheet_333
+    21300668: GokuSpriteSheet_334
+    21300670: GokuSpriteSheet_335
+    21300672: GokuSpriteSheet_336
+    21300674: GokuSpriteSheet_337
+    21300676: GokuSpriteSheet_338
+    21300678: GokuSpriteSheet_339
+    21300680: GokuSpriteSheet_340
+    21300682: GokuSpriteSheet_341
+    21300684: GokuSpriteSheet_342
+    21300686: GokuSpriteSheet_343
+    21300688: GokuSpriteSheet_344
+    21300690: GokuSpriteSheet_345
+    21300692: GokuSpriteSheet_346
+    21300694: GokuSpriteSheet_347
+    21300696: GokuSpriteSheet_348
+    21300698: GokuSpriteSheet_349
+    21300700: GokuSpriteSheet_350
+    21300702: GokuSpriteSheet_351
+    21300704: GokuSpriteSheet_352
+    21300706: GokuSpriteSheet_353
+    21300708: GokuSpriteSheet_354
+    21300710: GokuSpriteSheet_355
+    21300712: GokuSpriteSheet_356
+    21300714: GokuSpriteSheet_357
+    21300716: GokuSpriteSheet_358
+    21300718: GokuSpriteSheet_359
+    21300720: GokuSpriteSheet_360
+    21300722: GokuSpriteSheet_361
+    21300724: GokuSpriteSheet_362
+    21300726: GokuSpriteSheet_363
+    21300728: GokuSpriteSheet_364
+    21300730: GokuSpriteSheet_365
+    21300732: GokuSpriteSheet_366
+    21300734: GokuSpriteSheet_367
+    21300736: GokuSpriteSheet_368
+    21300738: GokuSpriteSheet_369
+    21300740: GokuSpriteSheet_370
+    21300742: GokuSpriteSheet_371
+    21300744: GokuSpriteSheet_372
+    21300746: GokuSpriteSheet_373
+    21300748: GokuSpriteSheet_374
+    21300750: GokuSpriteSheet_375
+    21300752: GokuSpriteSheet_376
+    21300754: GokuSpriteSheet_377
+    21300756: GokuSpriteSheet_378
+    21300758: GokuSpriteSheet_379
+    21300760: GokuSpriteSheet_380
+    21300762: GokuSpriteSheet_381
+    21300764: GokuSpriteSheet_382
+    21300766: GokuSpriteSheet_383
+    21300768: GokuSpriteSheet_384
+    21300770: GokuSpriteSheet_385
+    21300772: GokuSpriteSheet_386
+    21300774: GokuSpriteSheet_387
+    21300776: GokuSpriteSheet_388
+    21300778: GokuSpriteSheet_389
+    21300780: GokuSpriteSheet_390
+    21300782: GokuSpriteSheet_391
+    21300784: GokuSpriteSheet_392
+    21300786: GokuSpriteSheet_393
+    21300788: GokuSpriteSheet_394
+    21300790: GokuSpriteSheet_395
+    21300792: GokuSpriteSheet_396
+    21300794: GokuSpriteSheet_397
+    21300796: GokuSpriteSheet_398
+    21300798: GokuSpriteSheet_399
+    21300800: GokuSpriteSheet_400
+    21300802: GokuSpriteSheet_401
+    21300804: GokuSpriteSheet_402
+    21300806: GokuSpriteSheet_403
+    21300808: GokuSpriteSheet_404
+    21300810: GokuSpriteSheet_405
+    21300812: GokuSpriteSheet_406
+    21300814: GokuSpriteSheet_407
+    21300816: GokuSpriteSheet_408
+    21300818: GokuSpriteSheet_409
+    21300820: GokuSpriteSheet_410
+    21300822: GokuSpriteSheet_411
+    21300824: GokuSpriteSheet_412
+    21300826: GokuSpriteSheet_413
+    21300828: GokuSpriteSheet_414
+    21300830: GokuSpriteSheet_415
+    21300832: GokuSpriteSheet_416
+    21300834: GokuSpriteSheet_417
+    21300836: GokuSpriteSheet_418
+    21300838: GokuSpriteSheet_419
+    21300840: GokuSpriteSheet_420
+    21300842: GokuSpriteSheet_421
+    21300844: GokuSpriteSheet_422
+    21300846: GokuSpriteSheet_423
+    21300848: GokuSpriteSheet_424
+    21300850: GokuSpriteSheet_425
+    21300852: GokuSpriteSheet_426
+    21300854: GokuSpriteSheet_427
+    21300856: GokuSpriteSheet_428
+    21300858: GokuSpriteSheet_429
+    21300860: GokuSpriteSheet_430
+    21300862: GokuSpriteSheet_431
+    21300864: GokuSpriteSheet_432
+    21300866: GokuSpriteSheet_433
+    21300868: GokuSpriteSheet_434
+    21300870: GokuSpriteSheet_435
+    21300872: GokuSpriteSheet_436
+    21300874: GokuSpriteSheet_437
+    21300876: GokuSpriteSheet_438
+    21300878: GokuSpriteSheet_439
+    21300880: GokuSpriteSheet_440
+    21300882: GokuSpriteSheet_441
+    21300884: GokuSpriteSheet_442
+    21300886: GokuSpriteSheet_443
+    21300888: GokuSpriteSheet_444
+    21300890: GokuSpriteSheet_445
+    21300892: GokuSpriteSheet_446
+    21300894: GokuSpriteSheet_447
+    21300896: GokuSpriteSheet_448
+    21300898: GokuSpriteSheet_449
+    21300900: GokuSpriteSheet_450
+    21300902: GokuSpriteSheet_451
+    21300904: GokuSpriteSheet_452
+    21300906: GokuSpriteSheet_453
+    21300908: GokuSpriteSheet_454
+    21300910: GokuSpriteSheet_455
+    21300912: GokuSpriteSheet_456
+    21300914: GokuSpriteSheet_457
+    21300916: GokuSpriteSheet_458
+    21300918: GokuSpriteSheet_459
+    21300920: GokuSpriteSheet_460
+    21300922: GokuSpriteSheet_461
+    21300924: GokuSpriteSheet_462
+    21300926: GokuSpriteSheet_463
+    21300928: GokuSpriteSheet_464
+    21300930: GokuSpriteSheet_465
+    21300932: GokuSpriteSheet_466
+    21300934: GokuSpriteSheet_467
+    21300936: GokuSpriteSheet_468
+    21300938: GokuSpriteSheet_469
+    21300940: GokuSpriteSheet_470
+    21300942: GokuSpriteSheet_471
+    21300944: GokuSpriteSheet_472
+    21300946: GokuSpriteSheet_473
+    21300948: GokuSpriteSheet_474
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Android
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: WebGL
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: GokuSpriteSheet_0
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 1400
+        width: 40
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_1
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 1400
+        width: 40
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_2
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 1400
+        width: 40
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_3
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 1400
+        width: 40
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_4
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 1400
+        width: 40
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_5
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 1400
+        width: 40
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_6
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 1400
+        width: 40
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_7
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 1440
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_8
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 1440
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_9
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 1440
+        width: 24
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_10
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 1440
+        width: 24
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_11
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 1440
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_12
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 1440
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_13
+      rect:
+        serializedVersion: 2
+        x: 473
+        y: 1440
+        width: 24
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_14
+      rect:
+        serializedVersion: 2
+        x: 503
+        y: 1440
+        width: 24
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_15
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 1420
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_16
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 1420
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_17
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 1420
+        width: 24
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_18
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 1420
+        width: 24
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_19
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 1400
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_20
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 1400
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_21
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 1400
+        width: 24
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_22
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 1400
+        width: 24
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_23
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 1371
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_24
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 1371
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_25
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 1371
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_26
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 1371
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_27
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 1371
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_28
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 1371
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_29
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 1371
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_30
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 1371
+        width: 4
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_31
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 1371
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_32
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 1371
+        width: 14
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_33
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 1371
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_34
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 1371
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_35
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 1371
+        width: 14
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_36
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 1371
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_37
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 1371
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_38
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 1371
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_39
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 1371
+        width: 20
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_40
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 1305
+        width: 30
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_41
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 1305
+        width: 30
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_42
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 1305
+        width: 32
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_43
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 1305
+        width: 31
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_44
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 1305
+        width: 97
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_45
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 1305
+        width: 64
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_46
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 1305
+        width: 64
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_47
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 1251
+        width: 32
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_48
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 1251
+        width: 32
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_49
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 1251
+        width: 31
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_50
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 1251
+        width: 30
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_51
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 1251
+        width: 36
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_52
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 1251
+        width: 40
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_53
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 1251
+        width: 30
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_54
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 1251
+        width: 40
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_55
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 1251
+        width: 39
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_56
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 1251
+        width: 40
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_57
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 1251
+        width: 30
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_58
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 1251
+        width: 30
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_59
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 1251
+        width: 37
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_60
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 1195
+        width: 30
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_61
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 1195
+        width: 36
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_62
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 1195
+        width: 24
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_63
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 1195
+        width: 31
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_64
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 1195
+        width: 27
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_65
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 1195
+        width: 30
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_66
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 1195
+        width: 30
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_67
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 1236
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_68
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 1195
+        width: 30
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_69
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 1236
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_70
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 1196
+        width: 31
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_71
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 1196
+        width: 31
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_72
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 1196
+        width: 30
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_73
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 1195
+        width: 32
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_74
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 1196
+        width: 47
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_75
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 1141
+        width: 32
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_76
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 1158
+        width: 47
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_77
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 1158
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_78
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 1141
+        width: 29
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_79
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 1141
+        width: 31
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_80
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 1143
+        width: 62
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_81
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 1146
+        width: 44
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_82
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 1129
+        width: 63
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_83
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 1072
+        width: 88
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_84
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 1075
+        width: 72
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_85
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 1129
+        width: 39
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_86
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 1081
+        width: 32
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_87
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 1098
+        width: 47
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_88
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 1098
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_89
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 1081
+        width: 29
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_91
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 1081
+        width: 30
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_92
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 1081
+        width: 31
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_93
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 1081
+        width: 30
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_94
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 1081
+        width: 32
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_95
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 1052
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_96
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 1052
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_97
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 1052
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_98
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 1052
+        width: 13
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_99
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 1052
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_100
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 1052
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_101
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 1052
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_102
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 1052
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_103
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 1052
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_104
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 1052
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_105
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 1052
+        width: 15
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_106
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 1052
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_107
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 1052
+        width: 15
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_108
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 1052
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_109
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 1052
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_110
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 986
+        width: 28
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_111
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 986
+        width: 30
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_112
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 986
+        width: 32
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_113
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 986
+        width: 77
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_114
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 986
+        width: 97
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_115
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 986
+        width: 64
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_116
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 986
+        width: 64
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_117
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 932
+        width: 32
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_118
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 932
+        width: 32
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_119
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 932
+        width: 31
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_120
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 932
+        width: 27
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_121
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 932
+        width: 34
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_122
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 932
+        width: 39
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_123
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 932
+        width: 28
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_124
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 932
+        width: 40
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_125
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 932
+        width: 38
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_126
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 932
+        width: 39
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_127
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 932
+        width: 29
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_128
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 932
+        width: 23
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_129
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 932
+        width: 33
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_130
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 876
+        width: 23
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_131
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 876
+        width: 36
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_132
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 876
+        width: 24
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_133
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 876
+        width: 30
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_134
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 876
+        width: 30
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_135
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 876
+        width: 26
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_136
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 876
+        width: 26
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_137
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 917
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_138
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 915
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_139
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 876
+        width: 26
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_140
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 877
+        width: 31
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_141
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 877
+        width: 28
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_142
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 877
+        width: 25
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_143
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 876
+        width: 32
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_144
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 876
+        width: 48
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_145
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 822
+        width: 32
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_146
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 839
+        width: 47
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_147
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 839
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_148
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 822
+        width: 26
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_149
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 822
+        width: 31
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_150
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 824
+        width: 62
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_151
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 827
+        width: 44
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_152
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 810
+        width: 63
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_153
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 753
+        width: 119
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_154
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 756
+        width: 72
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_155
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 810
+        width: 39
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_156
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 762
+        width: 32
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_157
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 779
+        width: 47
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_158
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 779
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_159
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 762
+        width: 26
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_161
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 762
+        width: 27
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_162
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 762
+        width: 31
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_163
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 762
+        width: 29
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_164
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 762
+        width: 32
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_165
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 733
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_166
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 733
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_167
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 733
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_168
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 733
+        width: 13
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_169
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 733
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_170
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 733
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_171
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 733
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_172
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 733
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_173
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 733
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_174
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 733
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_175
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 733
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_176
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 733
+        width: 15
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_177
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 733
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_178
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 733
+        width: 15
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_179
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 733
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_180
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 733
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_181
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 667
+        width: 28
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_182
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 667
+        width: 30
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_183
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 667
+        width: 32
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_184
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 667
+        width: 77
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_185
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 667
+        width: 97
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_186
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 667
+        width: 64
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_187
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 667
+        width: 64
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_188
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 613
+        width: 32
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_189
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 613
+        width: 32
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_190
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 613
+        width: 31
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_191
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 613
+        width: 27
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_192
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 613
+        width: 34
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_193
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 613
+        width: 39
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_194
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 613
+        width: 30
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_195
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 613
+        width: 40
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_196
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 613
+        width: 39
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_197
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 613
+        width: 39
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_198
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 613
+        width: 29
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_199
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 613
+        width: 26
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_200
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 613
+        width: 33
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_201
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 557
+        width: 24
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_202
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 557
+        width: 34
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_203
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 557
+        width: 24
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_204
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 557
+        width: 27
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_205
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 557
+        width: 29
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_206
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 557
+        width: 25
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_207
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 557
+        width: 25
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_208
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 598
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_209
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 596
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_210
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 557
+        width: 25
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_211
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 598
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_212
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 558
+        width: 31
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_213
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 558
+        width: 28
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_214
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 558
+        width: 26
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_215
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 557
+        width: 32
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_216
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 557
+        width: 48
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_217
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 503
+        width: 32
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_218
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 520
+        width: 47
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_219
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 520
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_220
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 503
+        width: 26
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_221
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 503
+        width: 31
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_222
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 505
+        width: 62
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_223
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 508
+        width: 44
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_224
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 491
+        width: 63
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_225
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 434
+        width: 87
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_226
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 437
+        width: 72
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_227
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 491
+        width: 39
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_228
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 443
+        width: 32
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_229
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 460
+        width: 47
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_230
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 460
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_231
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 443
+        width: 26
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_232
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 443
+        width: 31
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_233
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 443
+        width: 25
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_234
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 443
+        width: 31
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_235
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 443
+        width: 29
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_236
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 443
+        width: 32
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_237
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 414
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_238
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 414
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_239
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 414
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_240
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 414
+        width: 13
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_241
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 414
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_242
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 414
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_243
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 414
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_244
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 414
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_245
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 414
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_246
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 414
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_247
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 415
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_248
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 414
+        width: 15
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_249
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 414
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_250
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 414
+        width: 15
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_251
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 414
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_252
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 414
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_253
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 348
+        width: 30
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_254
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 349
+        width: 30
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_255
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 349
+        width: 32
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_256
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 349
+        width: 79
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_257
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 349
+        width: 97
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_258
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 349
+        width: 64
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_259
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 349
+        width: 64
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_260
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 295
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_261
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 295
+        width: 31
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_262
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 295
+        width: 32
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_263
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 295
+        width: 27
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_264
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 295
+        width: 34
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_265
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 295
+        width: 41
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_266
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 295
+        width: 31
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_267
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 295
+        width: 40
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_268
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 295
+        width: 39
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_269
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 295
+        width: 40
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_270
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 295
+        width: 31
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_271
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 295
+        width: 29
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_272
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 295
+        width: 33
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_273
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 239
+        width: 28
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_274
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 239
+        width: 35
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_275
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 239
+        width: 24
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_276
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 239
+        width: 27
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_277
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 239
+        width: 31
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_278
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 239
+        width: 28
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_279
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 239
+        width: 28
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_280
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 280
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_281
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 239
+        width: 28
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_282
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 239
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_283
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 239
+        width: 29
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_284
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 239
+        width: 30
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_285
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 239
+        width: 32
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_286
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 239
+        width: 47
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_287
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 185
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_288
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 202
+        width: 47
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_289
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 202
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_290
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 185
+        width: 29
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_291
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 185
+        width: 32
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_292
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 187
+        width: 62
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_293
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 190
+        width: 44
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_294
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 173
+        width: 63
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_295
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 116
+        width: 87
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_296
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 119
+        width: 72
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_297
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 172
+        width: 39
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_298
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 125
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_299
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 142
+        width: 47
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_300
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 142
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_301
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 125
+        width: 29
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_302
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 125
+        width: 32
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_303
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 125
+        width: 27
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_304
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 125
+        width: 31
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_305
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 125
+        width: 31
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_306
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 125
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_307
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 86
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_308
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 86
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_309
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 86
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_310
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 86
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_311
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 86
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_312
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 86
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_313
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 86
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_314
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 86
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_315
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 84
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_316
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 86
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_317
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 86
+        width: 4
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_318
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 86
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_319
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 86
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_320
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 86
+        width: 5
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_321
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 86
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_322
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 86
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_323
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 86
+        width: 15
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_324
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 86
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_325
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 86
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_326
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 86
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_327
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 84
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_328
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 86
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_329
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 86
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_330
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 86
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_331
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 86
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_332
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 86
+        width: 4
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_333
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 86
+        width: 4
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_334
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 86
+        width: 13
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_335
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 86
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_336
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 86
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_337
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 84
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_338
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 86
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_339
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 86
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_340
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 86
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_341
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 86
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_342
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 86
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_343
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 84
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_344
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 86
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_345
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 86
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_346
+      rect:
+        serializedVersion: 2
+        x: 373
+        y: 84
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_347
+      rect:
+        serializedVersion: 2
+        x: 382
+        y: 86
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_348
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 86
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_349
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 86
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_350
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 86
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_351
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 86
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_352
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 86
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_353
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 86
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_354
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 86
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_355
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 86
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_356
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 84
+        width: 4
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_357
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 86
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_358
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 86
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_359
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 86
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_360
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 84
+        width: 4
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_361
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 72
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_362
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 70
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_363
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 70
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_364
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 72
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_365
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 72
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_366
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 72
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_367
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 72
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_368
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 72
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_369
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 70
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_370
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 72
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_371
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 72
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_372
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 72
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_373
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 72
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_374
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 70
+        width: 4
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_375
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 72
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_376
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 70
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_377
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 72
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_378
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 72
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_379
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 72
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_380
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 72
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_381
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 70
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_382
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 72
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_383
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 72
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_384
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 70
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_385
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 72
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_386
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 72
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_387
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 72
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_388
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 72
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_389
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 70
+        width: 15
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_390
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 72
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_391
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 72
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_392
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 70
+        width: 15
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_393
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 72
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_394
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 72
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_395
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 72
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_396
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 72
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_397
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 72
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_398
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 58
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_399
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 58
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_400
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 58
+        width: 4
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_401
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 58
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_402
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 58
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_403
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 58
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_404
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 58
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_405
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 58
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_406
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 58
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_407
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 58
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_408
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 58
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_409
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 58
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_410
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 58
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_411
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 58
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_412
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 58
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_413
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 58
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_414
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 58
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_415
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 58
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_416
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 58
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_417
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 58
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_418
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 58
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_419
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 58
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_420
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 58
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_421
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 58
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_422
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 58
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_423
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 58
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_424
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 58
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_425
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 58
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_426
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 58
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_427
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 44
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_428
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 44
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_429
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 44
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_430
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 44
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_431
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 44
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_432
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 42
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_433
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 44
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_434
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 44
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_435
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 44
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_436
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 44
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_437
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 42
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_438
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 44
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_439
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 44
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_440
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 44
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_441
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 44
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_442
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 44
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_443
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 44
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_444
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 44
+        width: 4
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_445
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 44
+        width: 4
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_446
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 44
+        width: 16
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_447
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 44
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_448
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 44
+        width: 4
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_449
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 44
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_450
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 44
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_451
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 44
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_452
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 44
+        width: 13
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_453
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 44
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_454
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 44
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_455
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 42
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_456
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 44
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_457
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 44
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_458
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 44
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_459
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 44
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_460
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 44
+        width: 12
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_461
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 44
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_462
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 42
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_463
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 44
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_464
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 44
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_465
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 44
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_466
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 44
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_467
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 30
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_468
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 30
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_469
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 28
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_470
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 30
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_471
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 28
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_472
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 30
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_473
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 30
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GokuSpriteSheet_474
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 30
+        width: 4
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
