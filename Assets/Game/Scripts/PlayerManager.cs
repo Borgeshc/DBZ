@@ -42,15 +42,6 @@ public class PlayerManager : NetworkBehaviour
         movement = GetComponent<Movement>();
         stamina = GetComponent<Stamina>();
         canMove = true;
-
-        if (isServer)
-            CmdTurn("Right");
-        else
-        {
-            CmdTurn("Left");
-            animationManager.inverted = true;
-        }
-
     }
     
     public void SetUp(bool _isPlayerOne)

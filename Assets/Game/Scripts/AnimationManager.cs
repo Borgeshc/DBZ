@@ -32,7 +32,7 @@ public class AnimationManager : NetworkBehaviour
     {
         if (playerManager.isDead) return;
 
-        if(!inverted)
+        if(transform.rotation == Quaternion.identity)
             anim.SetFloat("Horizontal", horizontal);
         else
             anim.SetFloat("Horizontal", -horizontal);
@@ -125,10 +125,7 @@ public class AnimationManager : NetworkBehaviour
 
             yield return new WaitForSeconds(.1f);
 
-           // if(!inverted)
-                ability1.transform.localPosition = new Vector3(1, 0,0);
-            //else
-            //    ability1.transform.position = new Vector3(transform.position.x + 3, transform.position.y, transform.position.z);
+            ability1.transform.localPosition = new Vector3(1, 0,0);
 
             ability1.SetActive(true);
 
