@@ -43,11 +43,14 @@ public class PlayerManager : NetworkBehaviour
         stamina = GetComponent<Stamina>();
         canMove = true;
 
-        if (isPlayerOne)
+        if (isServer)
+            CmdTurn("Right");
+        else
         {
+            CmdTurn("Left");
             animationManager.inverted = true;
-            transform.rotation = Quaternion.Euler(0, 180, 0);
         }
+
     }
     
     public void SetUp(bool _isPlayerOne)
@@ -99,12 +102,12 @@ public class PlayerManager : NetworkBehaviour
         if (inputDevice.RightStick.X < 0)
         {
             animationManager.inverted = true;
-            transform.rotation = Quaternion.Euler(0, 180, 0);
+            CmdTurn("Left");
         }
         else if(inputDevice.RightStick.X > 0)
         {
             animationManager.inverted = false;
-            transform.rotation = Quaternion.identity;
+            CmdTurn("Right");
         }
     }
 
@@ -136,7 +139,7 @@ public class PlayerManager : NetworkBehaviour
 
     public void Hit()
     {
-        stamina.GainStamina(5);
+        stamina.CmdGainStamina(1);
         animationManager.IsHit();
     }
 
@@ -145,7 +148,7 @@ public class PlayerManager : NetworkBehaviour
         isBusy = true;
         if (stamina.stamina >= 50)
         {
-            stamina.ConsumeStamina(50);
+            stamina.CmdConsumeStamina(50);
             animationManager.CmdCastAbility1();
         }
         else
@@ -172,7 +175,7 @@ public class PlayerManager : NetworkBehaviour
             if(!dealingDamage)
             {
                 dealingDamage = true;
-                stamina.GainStamina(5);
+                stamina.CmdGainStamina(5);
                 PlayerWrangler.GetPlayer(hit.transform.name).TookDamage(damage);
                 StartCoroutine(Wait());
             }
@@ -200,6 +203,7 @@ public class PlayerManager : NetworkBehaviour
     {
         isBusy = false;
         gainingStamina = false;
+        if(charge != null)
         StopCoroutine(charge);
         animationManager.StopCharging();
     }
@@ -219,12 +223,14 @@ public class PlayerManager : NetworkBehaviour
     {
         isBusy = false;
         blocking = false;
+        if (block != null)
+            StopCoroutine(block);
         animationManager.StoppedBlocking();
     }
 
     IEnumerator GainStamina()
     {
-        stamina.GainStamina(1);
+        stamina.CmdGainStamina(1);
         yield return new WaitForSeconds(.1f);
         gainingStamina = false;
     }
@@ -232,11 +238,26 @@ public class PlayerManager : NetworkBehaviour
 
     IEnumerator LoseStamina()
     {
-        stamina.ConsumeStamina(5);
+        stamina.CmdConsumeStamina(5);
 
         if (stamina.stamina < 5)
             StopBlock();
         yield return new WaitForSeconds(.5f);
         blocking = false;
+    }
+
+    [Command]
+    void CmdTurn(string direction)
+    {
+        RpcTurn(direction);
+    }
+
+    [ClientRpc]
+    void RpcTurn(string direction)
+    {
+        if (direction == "Left")
+            transform.rotation = Quaternion.Euler(0, 180, 0);
+        else
+            transform.rotation = Quaternion.identity;
     }
 }

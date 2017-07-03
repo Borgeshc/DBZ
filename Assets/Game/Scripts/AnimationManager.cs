@@ -125,10 +125,10 @@ public class AnimationManager : NetworkBehaviour
 
             yield return new WaitForSeconds(.1f);
 
-            if(!inverted)
-                ability1.transform.position = new Vector3(transform.position.x + 5, transform.position.y,transform.position.z);
-            else
-                ability1.transform.position = new Vector3(transform.position.x - 5, transform.position.y, transform.position.z);
+           // if(!inverted)
+                ability1.transform.localPosition = new Vector3(1, 0,0);
+            //else
+            //    ability1.transform.position = new Vector3(transform.position.x + 3, transform.position.y, transform.position.z);
 
             ability1.SetActive(true);
 

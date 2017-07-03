@@ -26,7 +26,14 @@ public class Stamina : NetworkBehaviour
 
     }
 
-    public void GainStamina(float gainAmount)
+    [Command]
+    public void CmdGainStamina(float gainAmount)
+    {
+        RpcGainStamina(gainAmount);
+    }
+
+    [ClientRpc]
+    public void RpcGainStamina(float gainAmount)
     {
         if (stamina + gainAmount < maxStamina)
             stamina += gainAmount;
@@ -36,7 +43,14 @@ public class Stamina : NetworkBehaviour
         CmdUpdateStaminaBar();
     }
 
-    public void ConsumeStamina(float consumedAmount)
+    [Command]
+    public void CmdConsumeStamina(float consumedAmount)
+    {
+        RpcConsumeStamina(consumedAmount);
+    }
+
+    [ClientRpc]
+    public void RpcConsumeStamina(float consumedAmount)
     {
         if (stamina - consumedAmount > 0)
             stamina -= consumedAmount;

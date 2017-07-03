@@ -16,6 +16,11 @@ public class Projectile : NetworkBehaviour
         gameObject.SetActive(false);
     }
 
+    private void OnEnable()
+    {
+        dealingDamage = false;
+    }
+
     public void SetPlayer(bool result)
     {
         isPlayerOne = result;
