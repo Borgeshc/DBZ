@@ -159,4 +159,24 @@ public class AnimationManager : NetworkBehaviour
         yield return new WaitForSeconds(1);
         rb.bodyType = RigidbodyType2D.Kinematic;
     }
+
+    public void ChargingUp()
+    {
+        anim.SetBool("ChargeUp", true);
+    }
+
+    public void StopCharging()
+    {
+        anim.SetBool("ChargeUp", false);
+    }
+
+    public void IsBlocking()
+    {
+        anim.SetBool("Block", true);
+    }
+
+    public void StoppedBlocking()
+    {
+        anim.SetBool("Block", false);
+    }
 }

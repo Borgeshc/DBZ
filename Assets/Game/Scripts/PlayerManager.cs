@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Networking;
-using System;
+using InControl;
 
 public class PlayerManager : NetworkBehaviour
 {
@@ -17,6 +17,7 @@ public class PlayerManager : NetworkBehaviour
 
     AnimationManager animationManager;
     Movement movement;
+    InputDevice inputDevice;
 
     float horizontal;
     float vertical;
@@ -48,24 +49,36 @@ public class PlayerManager : NetworkBehaviour
 
     private void Update()
     {
-        horizontal = Input.GetAxis("Horizontal");
-        vertical = Input.GetAxis("Vertical");
+        inputDevice = InputManager.ActiveDevice;
 
-        if (Input.GetKeyDown(KeyCode.Mouse0))
+        horizontal = inputDevice.LeftStickX;
+        vertical = inputDevice.LeftStickY;
+
+        if (inputDevice.Action3)
             Punch();
         else
             StopPunching();
 
-        if (Input.GetKeyDown(KeyCode.Mouse1))
+        if (inputDevice.Action4)
             Kick();
         else
             StopKicking();
 
-        if (Input.GetKeyDown(KeyCode.Alpha1))
+        if (inputDevice.RightTrigger)
             Ability1();
 
         if(canMove)
         Move();
+
+        if (inputDevice.Action1)
+            ChargeUp();
+        else
+            StopChargeUp();
+
+        if (inputDevice.LeftBumper)
+            Block();
+        else
+            StopBlock();
     }
 
     void Move()
@@ -134,5 +147,25 @@ public class PlayerManager : NetworkBehaviour
     {
         yield return new WaitForSeconds(.5f);
         dealingDamage = false;
+    }
+
+    void ChargeUp()
+    {
+        animationManager.ChargingUp();
+    }
+
+    void StopChargeUp()
+    {
+        animationManager.StopCharging();
+    }
+
+    void Block()
+    {
+        animationManager.IsBlocking();
+    }
+
+    void StopBlock()
+    {
+        animationManager.StoppedBlocking();
     }
 }

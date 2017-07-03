@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: f4661df4b7731fe40ac76ad6519bfe11
-timeCreated: 1498948162
+timeCreated: 1499081440
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -1144,9 +1144,9 @@ TextureImporter:
       name: GokuSpriteSheet_44
       rect:
         serializedVersion: 2
-        x: 210
+        x: 242
         y: 1305
-        width: 97
+        width: 65
         height: 56
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
