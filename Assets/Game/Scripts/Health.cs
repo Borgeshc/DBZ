@@ -39,9 +39,13 @@ public class Health : NetworkBehaviour
     [ClientRpc]
     public void RpcTookDamage(float damage)
     {
-        health -= damage;
-        UpdateHealthBar();
-        playerManager.Hit();
+        if(!playerManager.blocking)
+        {
+            health -= damage;
+            UpdateHealthBar();
+            playerManager.Hit();
+        }
+
         if (health <= 0 && !playerManager.isDead)
             Died();
     }

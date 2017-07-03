@@ -29,7 +29,10 @@ public class PlayerManager : NetworkBehaviour
     [HideInInspector]
     public bool isBusy;
     bool gainingStamina;
+    [HideInInspector]
+    public bool blocking;
     Coroutine charge;
+    Coroutine block;
  
     int playerNum;
 
@@ -133,6 +136,7 @@ public class PlayerManager : NetworkBehaviour
 
     public void Hit()
     {
+        stamina.GainStamina(5);
         animationManager.IsHit();
     }
 
@@ -168,6 +172,7 @@ public class PlayerManager : NetworkBehaviour
             if(!dealingDamage)
             {
                 dealingDamage = true;
+                stamina.GainStamina(5);
                 PlayerWrangler.GetPlayer(hit.transform.name).TookDamage(damage);
                 StartCoroutine(Wait());
             }
@@ -202,12 +207,18 @@ public class PlayerManager : NetworkBehaviour
     void Block()
     {
         isBusy = true;
-        animationManager.IsBlocking();
+        if (!blocking && stamina.stamina > 5)
+        {
+            blocking = true;
+            block = StartCoroutine(LoseStamina());
+            animationManager.IsBlocking();
+        }
     }
 
     void StopBlock()
     {
         isBusy = false;
+        blocking = false;
         animationManager.StoppedBlocking();
     }
 
@@ -216,5 +227,16 @@ public class PlayerManager : NetworkBehaviour
         stamina.GainStamina(1);
         yield return new WaitForSeconds(.1f);
         gainingStamina = false;
+    }
+
+
+    IEnumerator LoseStamina()
+    {
+        stamina.ConsumeStamina(5);
+
+        if (stamina.stamina < 5)
+            StopBlock();
+        yield return new WaitForSeconds(.5f);
+        blocking = false;
     }
 }

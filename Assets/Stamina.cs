@@ -7,7 +7,7 @@ using UnityEngine.UI;
 public class Stamina : NetworkBehaviour
 {
     public float maxStamina;
-    [HideInInspector]
+    [HideInInspector, SyncVar]
     public float stamina;
     Image staminaBar;
     PlayerManager playerManager;
