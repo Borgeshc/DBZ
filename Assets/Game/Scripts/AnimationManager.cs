@@ -17,6 +17,8 @@ public class AnimationManager : NetworkBehaviour
 
     Coroutine ability1Coroutine;
     PlayerManager playerManager;
+    [HideInInspector]
+    public bool inverted;
 
     private void Start()
     {
@@ -30,7 +32,7 @@ public class AnimationManager : NetworkBehaviour
     {
         if (playerManager.isDead) return;
 
-        if(playerManager.isPlayerOne)
+        if(!inverted)
             anim.SetFloat("Horizontal", horizontal);
         else
             anim.SetFloat("Horizontal", -horizontal);
@@ -123,13 +125,10 @@ public class AnimationManager : NetworkBehaviour
 
             yield return new WaitForSeconds(.1f);
 
-            if(playerManager.isPlayerOne)
-            ability1.transform.position = new Vector3(transform.position.x + 5, transform.position.y,transform.position.z);
+            if(!inverted)
+                ability1.transform.position = new Vector3(transform.position.x + 5, transform.position.y,transform.position.z);
             else
-            {
-                ability1.transform.rotation = Quaternion.Euler(0,180,0);
                 ability1.transform.position = new Vector3(transform.position.x - 5, transform.position.y, transform.position.z);
-            }
 
             ability1.SetActive(true);
 
@@ -138,6 +137,7 @@ public class AnimationManager : NetworkBehaviour
             ability1Cast.SetActive(false);
 
             playerManager.canMove = true;
+            playerManager.isBusy = false;
 
             StartCoroutine(Ability1Cooldown());
         }
@@ -162,21 +162,27 @@ public class AnimationManager : NetworkBehaviour
 
     public void ChargingUp()
     {
+        playerManager.canMove = false;
+        rb.velocity = Vector2.zero;
         anim.SetBool("ChargeUp", true);
     }
 
     public void StopCharging()
     {
+        playerManager.canMove = true;
         anim.SetBool("ChargeUp", false);
     }
 
     public void IsBlocking()
     {
+        playerManager.canMove = false;
+        rb.velocity = Vector2.zero;
         anim.SetBool("Block", true);
     }
 
     public void StoppedBlocking()
     {
+        playerManager.canMove = true;
         anim.SetBool("Block", false);
     }
 }

@@ -18,6 +18,7 @@ public class PlayerManager : NetworkBehaviour
     AnimationManager animationManager;
     Movement movement;
     InputDevice inputDevice;
+    Stamina stamina;
 
     float horizontal;
     float vertical;
@@ -25,14 +26,25 @@ public class PlayerManager : NetworkBehaviour
     [HideInInspector]
     public bool isPlayerOne;
     bool dealingDamage;
-
+    [HideInInspector]
+    public bool isBusy;
+    bool gainingStamina;
+    Coroutine charge;
+ 
     int playerNum;
 
     private void Awake()
     {
         animationManager = GetComponent<AnimationManager>();
         movement = GetComponent<Movement>();
+        stamina = GetComponent<Stamina>();
         canMove = true;
+
+        if (isPlayerOne)
+        {
+            animationManager.inverted = true;
+            transform.rotation = Quaternion.Euler(0, 180, 0);
+        }
     }
     
     public void SetUp(bool _isPlayerOne)
@@ -44,6 +56,7 @@ public class PlayerManager : NetworkBehaviour
             transform.rotation = Quaternion.Euler(0, 180, 0);
         }
         GetComponent<Health>().SetHealthBars();
+        stamina.SetStaminaBars();
      //   Debug.LogError("Player Set Up called" +  transform.name + "IsPlayerOne is : " + isPlayerOne);
     }
 
@@ -64,21 +77,32 @@ public class PlayerManager : NetworkBehaviour
         else
             StopKicking();
 
-        if (inputDevice.RightTrigger)
+        if (inputDevice.RightTrigger && !isBusy)
             Ability1();
 
         if(canMove)
         Move();
 
-        if (inputDevice.Action1)
+        if (inputDevice.Action1 && !isBusy)
             ChargeUp();
         else
             StopChargeUp();
 
-        if (inputDevice.LeftBumper)
+        if (inputDevice.LeftBumper && !isBusy)
             Block();
         else
             StopBlock();
+
+        if (inputDevice.RightStick.X < 0)
+        {
+            animationManager.inverted = true;
+            transform.rotation = Quaternion.Euler(0, 180, 0);
+        }
+        else if(inputDevice.RightStick.X > 0)
+        {
+            animationManager.inverted = false;
+            transform.rotation = Quaternion.identity;
+        }
     }
 
     void Move()
@@ -114,7 +138,14 @@ public class PlayerManager : NetworkBehaviour
 
     void Ability1()
     {
-        animationManager.CmdCastAbility1();
+        isBusy = true;
+        if (stamina.stamina >= 50)
+        {
+            stamina.ConsumeStamina(50);
+            animationManager.CmdCastAbility1();
+        }
+        else
+        isBusy = false;
     }
 
     public void Dead()
@@ -151,21 +182,39 @@ public class PlayerManager : NetworkBehaviour
 
     void ChargeUp()
     {
+        isBusy = true;
+        if(!gainingStamina)
+        {
+            gainingStamina = true;
+            charge = StartCoroutine(GainStamina());
+        }
         animationManager.ChargingUp();
     }
 
     void StopChargeUp()
     {
+        isBusy = false;
+        gainingStamina = false;
+        StopCoroutine(charge);
         animationManager.StopCharging();
     }
 
     void Block()
     {
+        isBusy = true;
         animationManager.IsBlocking();
     }
 
     void StopBlock()
     {
+        isBusy = false;
         animationManager.StoppedBlocking();
+    }
+
+    IEnumerator GainStamina()
+    {
+        stamina.GainStamina(1);
+        yield return new WaitForSeconds(.1f);
+        gainingStamina = false;
     }
 }
