@@ -1,11 +1,14 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Networking;
 
-public class Projectile : MonoBehaviour
+public class Projectile : NetworkBehaviour
 {
     public float speed;
+    public float damage;
     bool isPlayerOne;
+    bool dealingDamage;
 
     private IEnumerator Start()
     {
@@ -24,5 +27,21 @@ public class Projectile : MonoBehaviour
             transform.Translate(Vector2.left * speed * Time.deltaTime);
         else
             transform.Translate(Vector2.right * speed * Time.deltaTime);
+    }
+
+    [ServerCallback]
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if(collision.tag.Equals("Player") && !dealingDamage)
+        {
+            dealingDamage = true;
+            PlayerWrangler.GetPlayer(collision.name).GetComponent<Health>().RpcTookDamage(damage);
+        }
+    }
+
+    IEnumerator Wait()
+    {
+        yield return new WaitForSeconds(1);
+        dealingDamage = false;
     }
 }

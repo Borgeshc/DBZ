@@ -27,7 +27,7 @@ public class Health : NetworkBehaviour
             myHealthBar = GameObject.Find("PlayerOneHealthBar").GetComponent<Image>();
         else
             myHealthBar = GameObject.Find("PlayerTwoHealthBar").GetComponent<Image>();
-        UpdateHealthBar();
+
     }
 
     [Command]
@@ -41,8 +41,8 @@ public class Health : NetworkBehaviour
     {
         health -= damage;
         UpdateHealthBar();
-
-        if (health <= 0 && !PlayerManager.isDead)
+        playerManager.Hit();
+        if (health <= 0 && !playerManager.isDead)
             Died();
     }
 
@@ -60,6 +60,12 @@ public class Health : NetworkBehaviour
     [ClientRpc]
     void RpcUpdateHealthBar()
     {
+        if (myHealthBar == null)
+        {
+            SetHealthBars();
+            myHealthBar.fillAmount = health / baseHealth;
+        }
+        else
         myHealthBar.fillAmount = health / baseHealth;
     }
 

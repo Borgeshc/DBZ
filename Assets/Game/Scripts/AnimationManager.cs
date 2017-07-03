@@ -1,8 +1,9 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Networking;
 
-public class AnimationManager : MonoBehaviour
+public class AnimationManager : NetworkBehaviour
 {
     public GameObject ability1Cast;
     public GameObject ability1;
@@ -12,19 +13,22 @@ public class AnimationManager : MonoBehaviour
     Animator anim;
     int punchCombo;
     int kickCombo;
+    Rigidbody2D rb;
 
     Coroutine ability1Coroutine;
     PlayerManager playerManager;
+
     private void Start()
     {
         anim = GetComponent<Animator>();
         playerManager = GetComponent<PlayerManager>();
+        rb = GetComponent<Rigidbody2D>();
         ability1.GetComponent<Projectile>().SetPlayer(playerManager.isPlayerOne);
     }
 
     public void IsMoving(float horizontal)
     {
-        if (PlayerManager.isDead) return;
+        if (playerManager.isDead) return;
 
         if(playerManager.isPlayerOne)
             anim.SetFloat("Horizontal", horizontal);
@@ -34,7 +38,7 @@ public class AnimationManager : MonoBehaviour
 
     public void IsPunching()
     {
-        if (PlayerManager.isDead) return;
+        if (playerManager.isDead) return;
 
         anim.SetBool("IsPunching", true);
         punchCombo++;
@@ -46,7 +50,7 @@ public class AnimationManager : MonoBehaviour
 
     public void StoppedPunching()
     {
-        if (PlayerManager.isDead) return;
+        if (playerManager.isDead) return;
 
         if (anim.GetBool("IsPunching").Equals(true))
         {
@@ -56,7 +60,7 @@ public class AnimationManager : MonoBehaviour
 
     public void IsKicking()
     {
-        if (PlayerManager.isDead) return;
+        if (playerManager.isDead) return;
 
         anim.SetBool("IsKicking", true);
         kickCombo++;
@@ -69,7 +73,7 @@ public class AnimationManager : MonoBehaviour
 
     public void StoppedKicking()
     {
-        if (PlayerManager.isDead) return;
+        if (playerManager.isDead) return;
 
         if (anim.GetBool("IsKicking").Equals(true))
         {
@@ -77,18 +81,37 @@ public class AnimationManager : MonoBehaviour
         }
     }
 
-    public void CastAbility1()
+    public void IsHit()
+    {
+        int hitEffect = Random.Range(0, 1);
+
+        if (hitEffect == 0)
+            anim.SetTrigger("Hit1");
+        else
+            anim.SetTrigger("Hit2");
+    }
+
+    [Command]
+    public void CmdCastAbility1()
+    {
+        RpcCastAbility1();
+    }
+
+    [ClientRpc]
+    public void RpcCastAbility1()
     {
         ability1Coroutine = StartCoroutine(Ability1Cast());
     }
 
     public IEnumerator Ability1Cast()
     {
-        if (PlayerManager.isDead) StopCoroutine(ability1Coroutine);
+        if (playerManager.isDead && ability1Coroutine != null) StopCoroutine(ability1Coroutine);
 
         if (!ability1OnCooldown)
         {
-            PlayerManager.canMove = false;
+            playerManager.canMove = false;
+            rb.velocity = Vector2.zero;
+
             ability1OnCooldown = true;
             anim.SetBool("Ability1Cast", true);
 
@@ -111,10 +134,10 @@ public class AnimationManager : MonoBehaviour
             ability1.SetActive(true);
 
             yield return new WaitForSeconds(1f);
+            anim.SetTrigger("Ability1Done");
             ability1Cast.SetActive(false);
 
-            anim.SetTrigger("Ability1Done");
-            PlayerManager.canMove = true;
+            playerManager.canMove = true;
 
             StartCoroutine(Ability1Cooldown());
         }
@@ -126,10 +149,14 @@ public class AnimationManager : MonoBehaviour
         ability1OnCooldown = false;
     }
 
-    public void IsDead()
+    public IEnumerator IsDead()
     {
-        PlayerManager.canMove = false;
-        GetComponent<Rigidbody2D>().gravityScale = 2;
+        playerManager.canMove = false;
+
+        rb.bodyType = RigidbodyType2D.Dynamic;
+        rb.gravityScale = 1.5f;
         anim.SetBool("IsDead", true);
+        yield return new WaitForSeconds(1);
+        rb.bodyType = RigidbodyType2D.Kinematic;
     }
 }

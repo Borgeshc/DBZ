@@ -6,9 +6,9 @@ using System;
 
 public class PlayerManager : NetworkBehaviour
 {
-    public static bool canMove;
+    public bool canMove;
     
-    public static bool isDead;
+    public bool isDead;
 
     public float damage;
     GameManager gameManager;
@@ -27,7 +27,7 @@ public class PlayerManager : NetworkBehaviour
 
     int playerNum;
 
-    private void Start()
+    private void Awake()
     {
         animationManager = GetComponent<AnimationManager>();
         movement = GetComponent<Movement>();
@@ -94,15 +94,20 @@ public class PlayerManager : NetworkBehaviour
         animationManager.StoppedKicking();
     }
 
+    public void Hit()
+    {
+        animationManager.IsHit();
+    }
+
     void Ability1()
     {
-        animationManager.CastAbility1();
+        animationManager.CmdCastAbility1();
     }
 
     public void Dead()
     {
         isDead = true;
-        animationManager.IsDead();
+        StartCoroutine(animationManager.IsDead());
     }
 
     public void TookDamage(float damage)

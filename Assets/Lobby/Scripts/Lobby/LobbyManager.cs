@@ -42,7 +42,7 @@ namespace Prototype.NetworkLobby
         //of players, so that even client know how many player there is.
         [HideInInspector]
         public int _playerNumber = 0;
-
+        
         //used to disconnect a client properly when exiting the matchmaker
         [HideInInspector]
         public bool _isMatchmaking = false;
@@ -65,6 +65,9 @@ namespace Prototype.NetworkLobby
             DontDestroyOnLoad(gameObject);
 
             SetServerInfo("Offline", "None");
+
+            gamePlayerPrefab = SelectionScreen.playerPrefab;
+            OnLobbyServerSceneLoadedForPlayer(gamePlayerPrefab, gamePlayerPrefab);
         }
 
         public override void OnLobbyClientSceneChanged(NetworkConnection conn)
@@ -329,6 +332,7 @@ namespace Prototype.NetworkLobby
             //This hook allows you to apply state data from the lobby-player to the game-player
             //just subclass "LobbyHook" and add it to the lobby object.
 
+
             if (_lobbyHooks)
                 _lobbyHooks.OnLobbyServerSceneLoadedForPlayer(this, lobbyPlayer, gamePlayer);
 
@@ -405,7 +409,7 @@ namespace Prototype.NetworkLobby
             }
         }
 
-
+        
         public override void OnClientDisconnect(NetworkConnection conn)
         {
             base.OnClientDisconnect(conn);
