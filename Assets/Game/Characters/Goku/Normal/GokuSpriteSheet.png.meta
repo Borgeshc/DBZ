@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: f4661df4b7731fe40ac76ad6519bfe11
-timeCreated: 1499081440
+timeCreated: 1499115179
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -1459,20 +1459,7 @@ TextureImporter:
         x: 313
         y: 1195
         width: 30
-        height: 44
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: GokuSpriteSheet_69
-      rect:
-        serializedVersion: 2
-        x: 315
-        y: 1236
-        width: 8
-        height: 7
+        height: 49
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}

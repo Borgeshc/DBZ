@@ -10,15 +10,27 @@ public class AnimationManager : NetworkBehaviour
     public float ability1Cooldown;
     bool ability1OnCooldown;
 
+    public GameObject ability2Cast;
+    public GameObject ability2;
+    public float ability2Cooldown;
+    bool ability2OnCooldown;
+
+    public GameObject kiBlastCast;
+    public GameObject kiBlast;
+
     Animator anim;
     int punchCombo;
     int kickCombo;
     Rigidbody2D rb;
 
     Coroutine ability1Coroutine;
+    Coroutine ability2Coroutine;
+
     PlayerManager playerManager;
     [HideInInspector]
     public bool inverted;
+
+    bool castingKiBlast;
 
     private void Start()
     {
@@ -133,8 +145,9 @@ public class AnimationManager : NetworkBehaviour
             anim.SetTrigger("Ability1Done");
             ability1Cast.SetActive(false);
 
-            playerManager.canMove = true;
             playerManager.isBusy = false;
+            playerManager.isUsingAbility = false;
+            playerManager.canMove = true;
 
             StartCoroutine(Ability1Cooldown());
         }
@@ -144,6 +157,57 @@ public class AnimationManager : NetworkBehaviour
     {
         yield return new WaitForSeconds(ability1Cooldown);
         ability1OnCooldown = false;
+    }
+
+
+    [Command]
+    public void CmdCastAbility2()
+    {
+        RpcCastAbility2();
+    }
+
+    [ClientRpc]
+    public void RpcCastAbility2()
+    {
+        ability1Coroutine = StartCoroutine(Ability2Cast());
+    }
+
+    public IEnumerator Ability2Cast()
+    {
+        if (playerManager.isDead && ability2Coroutine != null) StopCoroutine(ability2Coroutine);
+
+        if (!ability2OnCooldown)
+        {
+            playerManager.canMove = false;
+            rb.velocity = Vector2.zero;
+
+            ability2OnCooldown = true;
+            anim.SetBool("Ability2Cast", true);
+            yield return new WaitForSeconds(.15f);
+
+            ability2Cast.SetActive(true);
+            yield return new WaitForSeconds(1.5f);
+
+            ability2Cast.SetActive(false);
+            anim.SetBool("Ability2Cast", false);
+            yield return new WaitForSeconds(.1f);
+            ability2.transform.localPosition = new Vector3(.5f, 0, 0);
+
+            ability2.SetActive(true);
+            anim.SetTrigger("Ability2Done");
+
+            playerManager.isBusy = false;
+            playerManager.isUsingAbility = false;
+            playerManager.canMove = true;
+
+            StartCoroutine(Ability2Cooldown());
+        }
+    }
+
+    IEnumerator Ability2Cooldown()
+    {
+        yield return new WaitForSeconds(ability2Cooldown);
+        ability2OnCooldown = false;
     }
 
     public IEnumerator IsDead()
@@ -181,5 +245,27 @@ public class AnimationManager : NetworkBehaviour
     {
         playerManager.canMove = true;
         anim.SetBool("Block", false);
+    }
+
+    public void CastingKiBlast()
+    {
+        if(!castingKiBlast)
+        {
+            castingKiBlast = true;
+            StartCoroutine(CastKiBlast());
+        }
+    }
+
+    IEnumerator CastKiBlast()
+    {
+        anim.SetBool("KiBlastCast", true);
+        yield return new WaitForSeconds(.15f);
+        kiBlast.transform.localPosition = new Vector3(.5f, 0, 0);
+        kiBlastCast.SetActive(true);
+        kiBlast.SetActive(true);
+        yield return new WaitForSeconds(1);
+        anim.SetBool("KiBlastCast", false);
+        kiBlastCast.SetActive(false);
+        castingKiBlast = false;
     }
 }

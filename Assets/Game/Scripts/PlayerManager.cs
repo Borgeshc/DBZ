@@ -33,6 +33,10 @@ public class PlayerManager : NetworkBehaviour
     public bool blocking;
     Coroutine charge;
     Coroutine block;
+
+    bool isCharging;
+    [HideInInspector]
+    public bool isUsingAbility;
  
     int playerNum;
 
@@ -74,21 +78,27 @@ public class PlayerManager : NetworkBehaviour
         else
             StopKicking();
 
-        if (inputDevice.RightTrigger && !isBusy)
+        if (inputDevice.RightTrigger && !isBusy && !isUsingAbility && !blocking && !isCharging)
             Ability1();
 
-        if(canMove)
+        if (inputDevice.LeftTrigger && !isBusy && !isUsingAbility && !blocking && !isCharging)
+            Ability2();
+
+        if (canMove && !blocking && !isCharging && !isUsingAbility)
         Move();
 
-        if (inputDevice.Action1 && !isBusy)
+        if (inputDevice.Action1 && !isBusy && !isUsingAbility)
             ChargeUp();
         else
             StopChargeUp();
 
-        if (inputDevice.LeftBumper && !isBusy)
+        if (inputDevice.LeftBumper && !isBusy && !isUsingAbility)
             Block();
         else
             StopBlock();
+
+        if (inputDevice.Action2 && !isBusy && !isUsingAbility)
+            CastKiBlast();
 
         if (inputDevice.RightStick.X < 0)
         {
@@ -130,20 +140,53 @@ public class PlayerManager : NetworkBehaviour
 
     public void Hit()
     {
-        stamina.CmdGainStamina(1);
+        stamina.CmdGainStamina(3);
         animationManager.IsHit();
     }
 
     void Ability1()
     {
         isBusy = true;
+        isUsingAbility = true;
         if (stamina.stamina >= 50)
         {
+            if (charge != null)
+                StopCoroutine(charge);
+
+            if (block != null)
+                StopCoroutine(block);
+
             stamina.CmdConsumeStamina(50);
             animationManager.CmdCastAbility1();
         }
         else
-        isBusy = false;
+        {
+            isUsingAbility = false;
+            isBusy = false;
+        }
+    }
+
+
+    void Ability2()
+    {
+        isBusy = true;
+        isUsingAbility = true;
+        if (stamina.stamina >= 75)
+        {
+            if (charge != null)
+                StopCoroutine(charge);
+
+            if (block != null)
+                StopCoroutine(block);
+
+            stamina.CmdConsumeStamina(75);
+            animationManager.CmdCastAbility2();
+        }
+        else
+        {
+            isUsingAbility = false;
+            isBusy = false;
+        }
     }
 
     public void Dead()
@@ -221,7 +264,7 @@ public class PlayerManager : NetworkBehaviour
 
     IEnumerator GainStamina()
     {
-        stamina.CmdGainStamina(1);
+        stamina.CmdGainStamina(3);
         yield return new WaitForSeconds(.1f);
         gainingStamina = false;
     }
@@ -250,5 +293,10 @@ public class PlayerManager : NetworkBehaviour
             transform.rotation = Quaternion.Euler(0, 180, 0);
         else
             transform.rotation = Quaternion.identity;
+    }
+
+    void CastKiBlast()
+    {
+        animationManager.CastingKiBlast();
     }
 }
