@@ -1,13 +1,118 @@
 fileFormatVersion: 2
 guid: c311a7f53a598ca4f99c5acb9785fcd4
-timeCreated: 1499127178
+timeCreated: 1499141603
 licenseType: Free
 TextureImporter:
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    21300000: MajinBuu_0
+    21300002: MajinBuu_1
+    21300004: MajinBuu_2
+    21300006: MajinBuu_3
+    21300008: MajinBuu_4
+    21300010: MajinBuu_5
+    21300012: MajinBuu_6
+    21300014: MajinBuu_7
+    21300016: MajinBuu_8
+    21300018: MajinBuu_9
+    21300020: MajinBuu_10
+    21300022: MajinBuu_11
+    21300024: MajinBuu_12
+    21300026: MajinBuu_13
+    21300028: MajinBuu_14
+    21300030: MajinBuu_15
+    21300032: MajinBuu_16
+    21300034: MajinBuu_17
+    21300036: MajinBuu_18
+    21300038: MajinBuu_19
+    21300040: MajinBuu_20
+    21300042: MajinBuu_21
+    21300044: MajinBuu_22
+    21300046: MajinBuu_23
+    21300048: MajinBuu_24
+    21300050: MajinBuu_25
+    21300052: MajinBuu_26
+    21300054: MajinBuu_27
+    21300056: MajinBuu_28
+    21300058: MajinBuu_29
+    21300060: MajinBuu_30
+    21300062: MajinBuu_31
+    21300064: MajinBuu_32
+    21300066: MajinBuu_33
+    21300068: MajinBuu_34
+    21300070: MajinBuu_35
+    21300072: MajinBuu_36
+    21300074: MajinBuu_37
+    21300076: MajinBuu_38
+    21300078: MajinBuu_39
+    21300080: MajinBuu_40
+    21300082: MajinBuu_41
+    21300084: MajinBuu_42
+    21300086: MajinBuu_43
+    21300088: MajinBuu_44
+    21300090: MajinBuu_45
+    21300092: MajinBuu_46
+    21300094: MajinBuu_47
+    21300096: MajinBuu_48
+    21300098: MajinBuu_49
+    21300100: MajinBuu_50
+    21300102: MajinBuu_51
+    21300104: MajinBuu_52
+    21300106: MajinBuu_53
+    21300108: MajinBuu_54
+    21300110: MajinBuu_55
+    21300112: MajinBuu_56
+    21300114: MajinBuu_57
+    21300116: MajinBuu_58
+    21300118: MajinBuu_59
+    21300120: MajinBuu_60
+    21300122: MajinBuu_61
+    21300124: MajinBuu_62
+    21300126: MajinBuu_63
+    21300128: MajinBuu_64
+    21300130: MajinBuu_65
+    21300132: MajinBuu_66
+    21300134: MajinBuu_67
+    21300136: MajinBuu_68
+    21300138: MajinBuu_69
+    21300140: MajinBuu_70
+    21300142: MajinBuu_71
+    21300144: MajinBuu_72
+    21300146: MajinBuu_73
+    21300148: MajinBuu_74
+    21300150: MajinBuu_75
+    21300152: MajinBuu_76
+    21300154: MajinBuu_77
+    21300156: MajinBuu_78
+    21300158: MajinBuu_79
+    21300160: MajinBuu_80
+    21300162: MajinBuu_81
+    21300164: MajinBuu_82
+    21300166: MajinBuu_83
+    21300168: MajinBuu_84
+    21300170: MajinBuu_85
+    21300172: MajinBuu_86
+    21300174: MajinBuu_87
+    21300176: MajinBuu_88
+    21300178: MajinBuu_89
+    21300180: MajinBuu_90
+    21300182: MajinBuu_91
+    21300184: MajinBuu_92
+    21300186: MajinBuu_93
+    21300188: MajinBuu_94
+    21300190: MajinBuu_95
+    21300192: MajinBuu_96
+    21300194: MajinBuu_97
+    21300196: MajinBuu_98
+    21300198: MajinBuu_99
+    21300200: MajinBuu_100
+    21300202: MajinBuu_101
+    21300204: MajinBuu_102
+    21300206: MajinBuu_103
+    21300208: MajinBuu_104
   serializedVersion: 4
   mipmaps:
     mipMapMode: 0
-    enableMipMap: 1
+    enableMipMap: 0
     sRGBTexture: 1
     linearTexture: 0
     fadeOut: 0
@@ -30,11 +135,11 @@ TextureImporter:
     filterMode: -1
     aniso: -1
     mipBias: -1
-    wrapMode: -1
-  nPOTScale: 1
+    wrapMode: 1
+  nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 0
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -42,9 +147,9 @@ TextureImporter:
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spritePixelsToUnits: 100
   alphaUsage: 1
-  alphaIsTransparency: 0
+  alphaIsTransparency: 1
   spriteTessellationDetail: -1
-  textureType: 0
+  textureType: 8
   textureShape: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
@@ -58,9 +163,1406 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Android
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: WebGL
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: MajinBuu_0
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 303
+        width: 40
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MajinBuu_1
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 303
+        width: 40
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MajinBuu_2
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 303
+        width: 40
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MajinBuu_3
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 303
+        width: 40
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MajinBuu_4
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 303
+        width: 40
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MajinBuu_5
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 303
+        width: 40
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MajinBuu_6
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 303
+        width: 40
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MajinBuu_7
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 341
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MajinBuu_8
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 341
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MajinBuu_9
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 341
+        width: 24
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MajinBuu_10
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 341
+        width: 24
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MajinBuu_11
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 341
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MajinBuu_12
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 341
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MajinBuu_13
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 341
+        width: 24
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MajinBuu_14
+      rect:
+        serializedVersion: 2
+        x: 494
+        y: 341
+        width: 24
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MajinBuu_15
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 322
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MajinBuu_16
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 322
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MajinBuu_17
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 322
+        width: 24
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MajinBuu_18
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 322
+        width: 24
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MajinBuu_19
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 322
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MajinBuu_20
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 322
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MajinBuu_21
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 322
+        width: 24
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MajinBuu_22
+      rect:
+        serializedVersion: 2
+        x: 494
+        y: 322
+        width: 24
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MajinBuu_23
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 303
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MajinBuu_24
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 303
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MajinBuu_25
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 303
+        width: 24
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MajinBuu_26
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 303
+        width: 24
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MajinBuu_27
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 274
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MajinBuu_28
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 274
+        width: 14
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MajinBuu_29
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 274
+        width: 5
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MajinBuu_30
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 274
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MajinBuu_31
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 274
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MajinBuu_32
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 274
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MajinBuu_33
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 274
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MajinBuu_34
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 274
+        width: 4
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MajinBuu_35
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 274
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MajinBuu_36
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 274
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MajinBuu_37
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 274
+        width: 13
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MajinBuu_38
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 274
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MajinBuu_39
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 274
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MajinBuu_40
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 274
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MajinBuu_41
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 274
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MajinBuu_42
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 274
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MajinBuu_43
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 273
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MajinBuu_44
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 274
+        width: 19
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MajinBuu_45
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 274
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MajinBuu_46
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 274
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MajinBuu_47
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 274
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MajinBuu_48
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 274
+        width: 4
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MajinBuu_49
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 213
+        width: 28
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MajinBuu_50
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 213
+        width: 30
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MajinBuu_51
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 213
+        width: 32
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MajinBuu_52
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 213
+        width: 80
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MajinBuu_53
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 213
+        width: 97
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MajinBuu_54
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 213
+        width: 64
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MajinBuu_55
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 213
+        width: 64
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MajinBuu_56
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 165
+        width: 32
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MajinBuu_57
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 165
+        width: 31
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MajinBuu_58
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 165
+        width: 30
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MajinBuu_59
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 165
+        width: 27
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MajinBuu_60
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 165
+        width: 39
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MajinBuu_61
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 165
+        width: 39
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MajinBuu_62
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 165
+        width: 40
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MajinBuu_63
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 165
+        width: 31
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MajinBuu_64
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 165
+        width: 29
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MajinBuu_65
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 165
+        width: 29
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MajinBuu_66
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 156
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MajinBuu_67
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 154
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MajinBuu_68
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 156
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MajinBuu_69
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 152
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MajinBuu_70
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 115
+        width: 26
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MajinBuu_71
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 115
+        width: 34
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MajinBuu_72
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 115
+        width: 24
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MajinBuu_73
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 115
+        width: 28
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MajinBuu_74
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 115
+        width: 29
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MajinBuu_75
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 115
+        width: 32
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MajinBuu_76
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 115
+        width: 24
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MajinBuu_77
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 115
+        width: 24
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MajinBuu_78
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 115
+        width: 24
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MajinBuu_79
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 115
+        width: 43
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MajinBuu_80
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 115
+        width: 27
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MajinBuu_81
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 115
+        width: 28
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MajinBuu_82
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 78
+        width: 88
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MajinBuu_83
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 79
+        width: 38
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MajinBuu_84
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 102
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MajinBuu_85
+      rect:
+        serializedVersion: 2
+        x: 542
+        y: 51
+        width: 55
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MajinBuu_86
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 55
+        width: 32
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MajinBuu_87
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 72
+        width: 47
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MajinBuu_88
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 72
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MajinBuu_89
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 55
+        width: 29
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MajinBuu_90
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 55
+        width: 32
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MajinBuu_91
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 57
+        width: 62
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MajinBuu_92
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 60
+        width: 44
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MajinBuu_93
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 55
+        width: 30
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MajinBuu_94
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 83
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MajinBuu_95
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 8
+        width: 32
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MajinBuu_96
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 25
+        width: 47
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MajinBuu_97
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 25
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MajinBuu_98
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 8
+        width: 25
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MajinBuu_99
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 8
+        width: 32
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MajinBuu_100
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 8
+        width: 29
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MajinBuu_101
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 8
+        width: 27
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MajinBuu_102
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 19
+        width: 63
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MajinBuu_103
+      rect:
+        serializedVersion: 2
+        x: 555
+        y: 8
+        width: 28
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MajinBuu_104
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 8
+        width: 32
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
     outline: []
   spritePackingTag: 
   userData: 
