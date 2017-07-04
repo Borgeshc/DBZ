@@ -26,6 +26,7 @@ public class AnimationManager : NetworkBehaviour
     Coroutine ability1Coroutine;
     Coroutine ability2Coroutine;
 
+    SoundManager soundManager;
     PlayerManager playerManager;
     [HideInInspector]
     public bool inverted;
@@ -36,6 +37,7 @@ public class AnimationManager : NetworkBehaviour
     {
         anim = GetComponent<Animator>();
         playerManager = GetComponent<PlayerManager>();
+        soundManager = GetComponent<SoundManager>();
         rb = GetComponent<Rigidbody2D>();
         ability1.GetComponent<Projectile>().SetPlayer(playerManager.isPlayerOne);
     }
@@ -128,6 +130,7 @@ public class AnimationManager : NetworkBehaviour
 
             ability1OnCooldown = true;
             anim.SetBool("Ability1Cast", true);
+            soundManager.CmdSoundEffect("AbilityCharge");
 
             yield return new WaitForSeconds(1);
 
@@ -139,6 +142,7 @@ public class AnimationManager : NetworkBehaviour
 
             ability1.transform.localPosition = new Vector3(1, 0,0);
 
+            soundManager.CmdSoundEffect("BeamRelease");
             ability1.SetActive(true);
 
             yield return new WaitForSeconds(1f);
@@ -186,6 +190,7 @@ public class AnimationManager : NetworkBehaviour
             yield return new WaitForSeconds(.15f);
 
             ability2Cast.SetActive(true);
+            soundManager.CmdSoundEffect("Bomb");
             yield return new WaitForSeconds(1.5f);
 
             ability2Cast.SetActive(false);

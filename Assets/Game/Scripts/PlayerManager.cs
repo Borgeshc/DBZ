@@ -19,6 +19,7 @@ public class PlayerManager : NetworkBehaviour
     Movement movement;
     InputDevice inputDevice;
     Stamina stamina;
+    SoundManager soundManager;
 
     float horizontal;
     float vertical;
@@ -43,6 +44,7 @@ public class PlayerManager : NetworkBehaviour
     private void Awake()
     {
         animationManager = GetComponent<AnimationManager>();
+        soundManager = GetComponent<SoundManager>();
         movement = GetComponent<Movement>();
         stamina = GetComponent<Stamina>();
         canMove = true;
@@ -121,6 +123,7 @@ public class PlayerManager : NetworkBehaviour
     void Punch()
     {
         animationManager.IsPunching();
+        soundManager.CmdMelee("Punch");
     }
 
     void StopPunching()
@@ -131,6 +134,7 @@ public class PlayerManager : NetworkBehaviour
     void Kick()
     {
         animationManager.IsKicking();
+        soundManager.CmdMelee("Kick");
     }
 
     void StopKicking()
@@ -224,6 +228,7 @@ public class PlayerManager : NetworkBehaviour
 
     void ChargeUp()
     {
+        soundManager.CmdSoundEffect("Charge");
         isBusy = true;
         if(!gainingStamina)
         {
@@ -297,6 +302,7 @@ public class PlayerManager : NetworkBehaviour
 
     void CastKiBlast()
     {
+        soundManager.CmdSoundEffect("KiBlast");
         animationManager.CastingKiBlast();
     }
 }

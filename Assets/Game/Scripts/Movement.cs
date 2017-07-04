@@ -13,11 +13,14 @@ public class Movement : MonoBehaviour
     float maxXClamp = 9.4f;
 
     Rigidbody2D rb;
-    
+    SoundManager soundManager;
+    PlayerManager playerManager;
 
     private void Start()
     {
         rb = GetComponent<Rigidbody2D>();
+        soundManager = GetComponent<SoundManager>();
+        playerManager = GetComponent<PlayerManager>();
     }
 
     private void Update()
@@ -31,5 +34,24 @@ public class Movement : MonoBehaviour
         move *= moveSpeed;
 
         rb.velocity = move;
+    }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if(collision.tag == "Ground")
+        {
+            if (playerManager.isDead)
+                soundManager.CmdSoundEffect("Death");
+            else
+                soundManager.CmdSoundEffect("Land");
+        }
+    }
+
+    private void OnTriggerExit2D(Collider2D collision)
+    {
+        if (collision.tag == "Ground")
+        {
+            soundManager.CmdSoundEffect("TakeOff");
+        }
     }
 }
