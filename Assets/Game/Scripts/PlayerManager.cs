@@ -303,6 +303,6 @@ public class PlayerManager : NetworkBehaviour
     void CastKiBlast()
     {
         soundManager.CmdSoundEffect("KiBlast");
-        animationManager.CastingKiBlast();
+        animationManager.CmdCastingKiBlast();
     }
 }

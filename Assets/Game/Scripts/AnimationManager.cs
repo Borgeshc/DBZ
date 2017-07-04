@@ -220,9 +220,9 @@ public class AnimationManager : NetworkBehaviour
         playerManager.canMove = false;
 
         rb.bodyType = RigidbodyType2D.Dynamic;
-        rb.gravityScale = 1.5f;
+        rb.gravityScale = 3f;
         anim.SetBool("IsDead", true);
-        yield return new WaitForSeconds(1);
+        yield return new WaitForSeconds(2);
         rb.bodyType = RigidbodyType2D.Kinematic;
     }
 
@@ -252,7 +252,14 @@ public class AnimationManager : NetworkBehaviour
         anim.SetBool("Block", false);
     }
 
-    public void CastingKiBlast()
+    [Command]
+    public void CmdCastingKiBlast()
+    {
+        RpcCastingKiBlast();
+    }
+
+    [ClientRpc]
+    public void RpcCastingKiBlast()
     {
         if(!castingKiBlast)
         {
